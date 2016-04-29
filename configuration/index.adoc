@@ -1,5 +1,7 @@
 = Configuration Options
 
+:toc:
+
 Most of the the WildFly Swarm fractions use sensible defaults, but there are cases when need
 provide your own configuration or want to to change the default behaviour. WildFly
  Swarm offers two general mechanisms to configure an instance: using the java API or using an xml configuration file.
@@ -219,4 +221,4 @@ container.fraction(
 ----
 
 In this example the `datasource#connectionUrl()` is resolved from a stage configuration value.
-The stage configuration is exposed through the container.  
+The stage configuration is exposed through the container.
